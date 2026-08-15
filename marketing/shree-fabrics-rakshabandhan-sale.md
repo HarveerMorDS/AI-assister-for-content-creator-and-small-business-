@@ -4,7 +4,8 @@
 **Offer:** Up to 50% off
 **Festival date:** Raksha Bandhan falls on **28 August 2026** — run the campaign 14–19 Aug (announce), 20–26 Aug (push), 27–28 Aug (last call).
 
-> Fill in the `[bracketed]` placeholders before posting: `[STORE ADDRESS]`, `[PHONE/WHATSAPP]`, `[SALE END DATE]`, `[WEBSITE/INSTAGRAM HANDLE]`.
+> Fill in the remaining `[bracketed]` placeholders before posting: `[SALE END DATE]`, `[WEBSITE/INSTAGRAM HANDLE]`.
+> **Contact number used throughout: +91 82958 86667** (call/WhatsApp).
 
 ---
 
@@ -22,8 +23,7 @@ The bond is priceless. The price isn't.
 
 Because every sister deserves something beautiful, and every brother deserves an easy shopping trip. 😄
 
-📍 [STORE ADDRESS]
-📞 [PHONE/WHATSAPP] — WhatsApp us for a photo catalogue
+📞 +91 82958 86667 — call or WhatsApp us for a photo catalogue
 🕒 Offer valid till **[SALE END DATE]** | While stocks last
 
 **#ShreeFabrics #RakshaBandhan2026 #RakhiSale #UpTo50Off #FestiveCollection #SareeLove #EthnicWear #ShopLocal #RakhiGifts #IndianFabrics #FestiveShopping #SuitPieces**
@@ -35,7 +35,7 @@ Because every sister deserves something beautiful, and every brother deserves an
 Rakhi on the wrist. **50% OFF** on the cart. 🎁
 Festive fabrics at **Shree Fabrics** — silk, cotton, georgette & more.
 Till [SALE END DATE] only.
-📍 [STORE ADDRESS] | 📞 [PHONE/WHATSAPP]
+📞 +91 82958 86667
 
 #ShreeFabrics #RakhiSale #RakshaBandhan2026 #UpTo50Off
 
@@ -54,8 +54,7 @@ Till [SALE END DATE] only.
 Perfect for gifting your sister, or for your own festive look.
 
 🗓 Valid till *[SALE END DATE]*
-📍 [STORE ADDRESS]
-📞 Call/WhatsApp: [PHONE/WHATSAPP]
+📞 Call/WhatsApp: *+91 82958 86667*
 
 Reply *CATALOGUE* and we'll send you photos of the new stock. 📸
 
@@ -70,7 +69,7 @@ _Shree Fabrics — quality that ties the family together._
 **BODY:** On silk, cotton, georgette, chiffon & designer suit pieces
 **URGENCY STRIP:** Till [SALE END DATE] • While stocks last
 **LOGO:** Shree Fabrics
-**FOOTER:** 📍 [STORE ADDRESS] • 📞 [PHONE/WHATSAPP] • [WEBSITE/INSTAGRAM HANDLE]
+**FOOTER:** 📞 +91 82958 86667 • [WEBSITE/INSTAGRAM HANDLE]
 
 **Design direction**
 - Colour palette: deep maroon + gold, or festive pink + saffron with gold foil accents
@@ -86,7 +85,7 @@ _Shree Fabrics — quality that ties the family together._
 
 **Frame 1** — "Rakhi is coming. 🪢" + countdown sticker
 **Frame 2** — "Up to 50% OFF at Shree Fabrics" + fabric photo carousel
-**Frame 3** — "Till [SALE END DATE] only" + location sticker + "Message us" sticker
+**Frame 3** — "Till [SALE END DATE] only" + "📞 +91 82958 86667" + "Message us" sticker
 
 ---
 
