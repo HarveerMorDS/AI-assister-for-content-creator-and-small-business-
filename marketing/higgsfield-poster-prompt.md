@@ -1,29 +1,40 @@
 # Higgsfield Image Prompt — Shree Fabrics Raksha Bandhan Poster
 
 **Model:** `nano_banana_pro` (routes to nano_banana_2) — chosen because it is the strongest option for rendering readable text inside an image.
-**Aspect ratio:** `1:1` for the Instagram feed. Use `9:16` for Story/WhatsApp Status and `16:9` for a Facebook cover.
+**Aspect ratio:** `4:5` — the tallest format Instagram allows in the feed, so it occupies the most screen height as people scroll. Use `9:16` for Story/WhatsApp Status and `1:1` only if you specifically need a square.
+**Resolution:** `4k` → outputs **3712 × 4608 px**. Worth it: the extra pixels sharpen the small text (the phone number especially), and it gives you room to print the poster or crop it without softening. Takes ~40s vs ~15s for `1k`.
 **Count:** 2–4 variants per run — text rendering is a lottery, so always generate several and pick the one where the spelling is clean.
+
+### Size reference
+
+| Aspect ratio | Resolution setting | Output pixels | Use for |
+|---|---|---|---|
+| `4:5` | `4k` | 3712 × 4608 | **Instagram/Facebook feed — the default** |
+| `9:16` | `4k` | 3392 × 6016 approx. | Story, Reel cover, WhatsApp Status |
+| `1:1` | `4k` | 4096 × 4096 approx. | Profile grid, square print |
+| any | `1k` | ~1024 on the long edge | Quick draft to check the layout before committing to 4K |
 
 ---
 
 ## The Prompt
 
 ```
-A premium Indian festive sale poster for a fabric store, square format, photorealistic product photography blended with elegant graphic design.
+A premium Indian festive sale poster for a fabric store, tall vertical 4:5 portrait format, photorealistic product photography blended with elegant graphic design.
 
-LAYOUT (top to bottom):
-- Top center: an ornate gold mandala arch with hanging marigold garlands and small gold bells framing the composition.
+LAYOUT (top to bottom, using the full height of the tall frame):
+- Top: an ornate gold mandala arch with hanging marigold garlands and small gold bells framing the top of the composition.
 - Below the arch, small elegant gold serif text: "SHREE FABRICS" with a thin decorative gold rule underneath.
-- Center headline in large elegant gold serif capitals: "RAKSHA BANDHAN SALE"
-- Directly below, the dominant element of the whole poster, in very large bold cream and gold letters with a subtle glow: "UP TO 50% OFF"
+- Upper middle, headline in large elegant gold serif capitals: "RAKSHA BANDHAN SALE"
+- Center of the frame, the single dominant element of the whole poster, in very large bold cream and gold letters with a subtle glow: "UP TO 50% OFF"
 - Beneath that, a clean single line of smaller cream text: "Silk | Cotton | Georgette | Chiffon | Suit Pieces"
+- Lower third: the fabric arrangement.
 - Bottom strip: a gold banner ribbon containing dark maroon text: "Call / WhatsApp +91 82958 86667"
 
 VISUALS: a beautifully arranged stack of folded luxury sarees and fabric bolts in rich jewel tones - deep maroon, emerald green, royal blue, saffron, magenta - fanned across the lower third with visible silk sheen and gold zari borders. A delicate red and gold rakhi thread with beads rests on top of the fabric stack. Scattered marigold petals and tiny diyas glowing warmly in the corners.
 
-STYLE: deep maroon and gold color palette, luxurious festive Indian aesthetic, soft warm cinematic lighting, gold foil texture accents, subtle bokeh, high contrast so text is crisply readable, ultra detailed, 4K commercial advertising quality, clean uncluttered composition with generous breathing space around the text.
+STYLE: deep maroon and gold color palette, luxurious festive Indian aesthetic, soft warm cinematic lighting, gold foil texture accents, subtle bokeh, high contrast so text is crisply readable, ultra detailed, sharp focus, 4K commercial advertising quality, clean uncluttered composition with generous vertical breathing space between each element.
 
-IMPORTANT: all text must be spelled exactly as written, perfectly legible, correctly kerned English typography. No extra words, no gibberish text, no watermarks, no human faces.
+IMPORTANT: fill the entire tall vertical frame edge to edge with the design, no letterboxing, no white borders, no empty dead space at top or bottom. All text must be spelled exactly as written, perfectly legible, correctly kerned English typography. No extra words, no gibberish text, no watermarks, no human faces.
 ```
 
 ---
@@ -37,13 +48,14 @@ IMPORTANT: all text must be spelled exactly as written, perfectly legible, corre
 | "the dominant element of the whole poster" on 50% OFF | Forces visual hierarchy — the offer must read at thumbnail size |
 | "high contrast so text is crisply readable" | Prevents gold-on-gold text that disappears |
 | "no gibberish text, no watermarks, no human faces" | Image models love adding fake text and faces; faces also risk looking uncanny |
-| "generous breathing space" | Leaves room to crop for Stories without cutting words |
+| "generous vertical breathing space" | Leaves room to crop for Stories without cutting words |
+| "using the full height of the tall frame" + "fill the entire frame edge to edge, no letterboxing" | Tall formats tempt the model to render a square design with empty bands above and below — this forces it to use the whole canvas |
 
 ---
 
 ## Variations to try
 
-**Story format (9:16)** — change the first line to `vertical poster, 9:16 format` and add:
+**Story format (9:16)** — change `tall vertical 4:5 portrait format` to `extra tall vertical 9:16 format` and add:
 `leave the top 20 percent and bottom 15 percent of the frame free of text for Instagram Story UI.`
 
 **Emotional / lifestyle version** — replace the VISUALS block with:
